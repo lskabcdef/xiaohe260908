@@ -4,21 +4,16 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇺 HU 01 - xiaohe
+- name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: 172.67.67.178
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  server: uycneynsieuocxniseunciusecmsepiock.novexgroup.ir
+  port: 2096
+  uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇭🇺 HU 02 - xiaohe
+  servername: uycneynsieuocxniseunciusecmsepiock.novexgroup.ir
+- name: 🇱🇻 LV 02 - xiaohe
   type: vless
   server: 104.24.31.89
   port: 443
@@ -37,14 +32,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇺 HU 01 - xiaohe
-  - 🇭🇺 HU 02 - xiaohe
+  - 🇱🇻 LV 01 - xiaohe
+  - 🇱🇻 LV 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇺 HU 01 - xiaohe
-  - 🇭🇺 HU 02 - xiaohe
+  - 🇱🇻 LV 01 - xiaohe
+  - 🇱🇻 LV 02 - xiaohe
 rules:
 - MATCH,PROXIES
