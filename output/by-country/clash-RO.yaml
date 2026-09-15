@@ -12,8 +12,15 @@ proxies:
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
 - name: 🇷🇴 RO 02 - xiaohe
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 03 - xiaohe
   type: vless
-  server: 45.192.224.30
+  server: 45.12.30.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -23,14 +30,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime17.workers.dev
-- name: 🇷🇴 RO 03 - xiaohe
-  type: ss
-  server: 154.46.31.106
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  udp: true
+      Host: vms.lifetime28.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
