@@ -4,29 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇴 NO 01 - xiaohe
+- name: 🇦🇱 AL 01 - xiaohe
   type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
+  server: 85.155.228.185
+  port: 443
+  uuid: ca5ffe64-81e0-42f0-a136-03cc4f662a4f
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: qq
+    public-key: 9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8
+  servername: avsal.krusofiya.fun
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇳🇴 NO 01 - xiaohe
+  - 🇦🇱 AL 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇴 NO 01 - xiaohe
+  - 🇦🇱 AL 01 - xiaohe
 rules:
 - MATCH,PROXIES
