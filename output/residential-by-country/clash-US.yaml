@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   type: vless
-  server: long-math-be5a.233-98b.workers.dev
-  port: 8880
-  uuid: 7b8ff2bf-29c0-4a4f-8925-9f9ef6e486f5
+  server: 104.21.19.76
+  port: 2096
+  uuid: fee1da7e-a258-4456-8e5e-8ecf6518ed12
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ez-82c7e7.aBoBaBA.WorkeRS.dEv
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /eyJqdW5rIjoiemxGMEFDU1VDRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: long-math-be5a.233-98b.workers.dev
+      Host: ez-82c7e7.abobaba.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
