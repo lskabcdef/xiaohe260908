@@ -20,17 +20,17 @@ proxies:
       Host: www.genflix.co.id.r3xxe.eu.cc
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   type: vless
-  server: forwarded.frnhk.xyz
-  port: 46004
-  uuid: 3c5f522d-6695-474f-abcf-2b1a65d503fa
+  server: 199.181.197.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /aus1023
+    path: /?ed=2560
     headers:
-      Host: forwarded.frnhk.xyz
+      Host: vms.lifetime19.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
