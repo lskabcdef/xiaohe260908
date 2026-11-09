@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 172.67.116.212
+  server: 85.237.207.141
   port: 443
-  uuid: 0192e468-ddb2-48f5-9450-e33608d299c4
+  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: net-bridge-4126e7-gw.wallweb3obtar.workers.dev
+  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
   network: ws
   ws-opts:
-    path: /dbb0764aca00c946?ed=2560
+    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome
     headers:
-      Host: net-bridge-4126e7-gw.wallweb3obtar.workers.dev
+      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
 proxy-groups:
 - name: PROXIES
   type: select
